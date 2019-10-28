@@ -21,7 +21,7 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        
+
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         articleRecyclerView = root.findViewById(R.id.article_recycler_view)
         articleRecyclerView.layoutManager = LinearLayoutManager(container!!.context) //чтобы поместить в ресайслер вещи
